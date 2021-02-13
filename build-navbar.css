@@ -1,0 +1,30 @@
+#navlinks {
+    list-style: none;
+    font-family: serif;
+}
+
+.navlink {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#navlinks li a {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header-dropdown-list {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    overflow: hidden;
+}
+
+.header-dropdown-list li {
+    display: block;
+}
+
+.header-dropdown-list:hover {
+    overflow: visible;
+}
